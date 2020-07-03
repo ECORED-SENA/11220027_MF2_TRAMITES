@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="421" viewBox="0 0 460 421">
+  <g id="Grupo_9252" data-name="Grupo 9252" transform="translate(-486 -4607)">
+    <g id="Grupo_8940" data-name="Grupo 8940" transform="translate(376 3474.62)">
+      <rect id="Rectángulo_760" data-name="Rectángulo 760" width="460" height="421" transform="translate(110 1132.38)" fill="#d3faff"/>
+      <rect id="Rectángulo_761" data-name="Rectángulo 761" width="460" height="5" transform="translate(110 1548.38)" fill="#5f3bbf"/>
+    </g>
+    <text id="Como_el_valor_del_IVA_se_deduce_a_partir_del_valor_agregado_que_se_le_puso_al_producto_el_cálculo_se_debe_hacer_sobre_los_30.000._De_modo_que:_30.000_1_19_25.510" data-name="Como el valor del IVA se deduce a partir del valor agregado que se le puso al producto, el cálculo se debe hacer sobre los $30.000. De modo que: 30.000 / 1,19 = 25.510" transform="translate(525 4853)" fill="#00223d" font-size="18" font-family="OpenSans, Open Sans"><tspan x="0" y="19">Como el valor del IVA se deduce a partir del </tspan><tspan x="0" y="49">valor agregado que se le puso al producto, </tspan><tspan y="49" font-family="OpenSans-Semibold, Open Sans" font-weight="600">el </tspan><tspan x="0" y="79" font-family="OpenSans-Semibold, Open Sans" font-weight="600">cálculo se debe hacer sobre los $30.000. De </tspan><tspan x="0" y="109" font-family="OpenSans-Semibold, Open Sans" font-weight="600">modo que: 30.000 / 1,19 = 25.510</tspan></text>
+    <text id="_30.000_1_19_25.510" data-name="$ 30.000 / 1,19 = 25.510" transform="translate(543 4755)" fill="#f80041" font-size="30" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">$ 30.000 / 1,19 = </tspan><tspan y="0" fill="#5f3bbf">25.510</tspan></text>
+  </g>
+</svg>

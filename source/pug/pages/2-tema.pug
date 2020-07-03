@@ -1,0 +1,134 @@
+include ../mixins/functions
+
++pageHeader('Obligaciones Tributarias', 'assets/images/header/header_media.svg')
+
+.container
+
+    h1(style="color:#5F3BBF") 2. Régimen Tributario
+
+    .brand-line-primary
+
+    .card.py-3
+
+        .card-body
+
+            p Es un conjunto de normas que establece cómo pagar los impuestos y los niveles en que se efectuará el pago. En Colombia hay impuestos de tipo departamental y municipal, es decir, tributos que aportan a la inversión del gasto público de las zonas municipales y otras que corresponden al departamento.
+    #objetivos
+    h1(style="color:#5F3BBF") 2.1 Concepto de Impuesto
+
+    .brand-line-primary
+
+    .card.py-3
+
+        .card-body
+
+            p Es un tributo que se paga al Estado y debe ser cancelado por las personas naturales o jurídicas para contribuir con la hacienda pública para financiar los gastos del estado.
+            br
+            p Los impuestos son uno de los instrumentos de mayor importancia con el que cuenta el Estado para promover el desarrollo económico, sobre todo porque a través de éstos se puede influir en los niveles de asignación del ingreso entre la población, ya sea mediante un determinado nivel de tributación entre los distintos estratos o, a través del gasto social, el cual depende en gran medida del nivel de recaudación logrado (Facultad de Economía UNAM, s.f.). 
+            br
+            p De acuerdo con lo anterior, las personas naturales o jurídicas deben aportar con impuestos al erario público para permitir el desarrollo del Estado a través de la ejecución de actividades con impacto a la gente, como salud, educación, cultura, deportes, vías, entre otros. 
+
+    #clasificacionem
+    h1(style="color:#5F3BBF") 2.2 Tipos de impuestos en Colombia
+
+    .brand-line-primary
+
+    .card.py-3
+
+        .card-body
+
+            p La carga tributaria en Colombia se encuentra entre las diez más altas de Latinoamérica, lo cual significa que un gran número de personas naturales y jurídicas tributan en diversos impuestos.
+
+        .row-12
+            img.img-a.my-5(src="assets/images/pages/img6.svg", style="width: 100%").img-fluid  
+
+        #accordionExample.accordion.mt-5
+            .card
+                #headingOne.card-header
+                    h2.mb-0
+                        button.btn.btn-link(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                            .row-a(style="align-items:center")
+                                .col-auto
+                                    img.img-a(src="assets/images/pages/plus.svg").img-fluid
+                                .col-9
+                                    h2.mb-0(style="color:#5F3BBF; display: ruby") Renta y lucro ocasional
+                #collapseOne.collapse.show(aria-labelledby='headingOne', data-parent='#accordionExample')
+                    .card-body
+                        p El impuesto sobre la renta es nacional y se refiere a las operaciones corrientes de la empresa. El impuesto al lucro ocasional es complementario y se refiere a las ganancias en actividades no contempladas como actividades corrientes. El impuesto a la renta tiene una tasa de 35 % y el que se aplica al lucro ocasional llega al 10 % .
+            .card
+                #headingTwo.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                            .row-a(style="align-items:center")
+                                .col-auto
+                                    img.img-a(src="assets/images/pages/plus.svg").img-fluid
+                                .col-9
+                                    h2.mb-0(style="color:#5F3BBF; display: ruby") Impuesto sobre la renta para la equidad
+                #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
+                    .card-body
+                        p El CREE es uno de los impuestos en Colombia que tienen carácter nacional. La tasa de 9 % sobre ingresos que pueden aumentar el patrimonio de las empresas se paga en beneficio de los trabajadores, generación de empleo e inversiones sociales.
+            .card
+                #headingThree.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                            .row-a(style="align-items:center")
+                                .col-auto
+                                    img.img-a(src="assets/images/pages/plus.svg").img-fluid
+                                .col-9
+                                    h2.mb-0(style="color:#5F3BBF; display: ruby")  Impuesto al valor agregado
+                #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
+                    .card-body
+                        p Es un impuesto indirecto nacional sobre la prestación de servicios y venta e importación de bienes. Las tarifas varían entre 0 %, 5 % y 16 %, según el tipo de bien y servicio.
+            .card
+                #headingfour.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapsefour', aria-expanded='false', aria-controls='collapsefour')
+                            .row-a(style="align-items:center")
+                                .col-auto
+                                    img.img-a(src="assets/images/pages/plus.svg").img-fluid
+                                .col-9
+                                    h2.mb-0(style="color:#5F3BBF; display: ruby")  Impuesto al consumo
+
+                #collapsefour.collapse(aria-labelledby='headingfour', data-parent='#accordionExample')
+                    .card-body
+                        p Es un tributo sobre los sectores de vehículos, telecomunicaciones, alimentos y bebidas. Puede variar entre 4 %, 8 % y 16 %.
+            .card
+                #headingFive.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFive', aria-expanded='false', aria-controls='collapseFive')
+                            .row-a(style="align-items:center")
+                                .col-auto
+                                    img.img-a(src="assets/images/pages/plus.svg").img-fluid
+                                .col-9
+                                    h2.mb-0(style="color:#5F3BBF; display: ruby")  Impuesto sobre transacciones financieras
+                #collapseFive.collapse(aria-labelledby='headingFive', data-parent='#accordionExample')
+                    .card-body
+                        p En Colombia, este impuesto se aplica a cada transacción que se realiza en cuentas corrientes con cheques y ahorro. Tiene una incidencia del 0,4 %.
+            .card
+                #headingSix.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseSix', aria-expanded='false', aria-controls='collapseSix')
+                            .row-a(style="align-items:center")
+                                .col-auto
+                                    img.img-a(src="assets/images/pages/plus.svg").img-fluid
+                                .col-9
+                                    h2.mb-0(style="color:#5F3BBF; display: ruby")  Impuesto sobre la industria y comercio
+                #collapseSix.collapse(aria-labelledby='headingSix', data-parent='#accordionExample')
+                    .card-body
+                        p Es un impuesto a las actividades industriales, comerciales y de servicios realizados dentro de un distrito o municipio. Varía entre 0,2 % y 1,4 %.
+
+            .card            
+                #headingSeven.card-header
+                    h2.mb-0
+                        button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseSeven', aria-expanded='false', aria-controls='collapseSeven')
+                            .row-a(style="align-items:center")
+                                .col-auto
+                                    img.img-a(src="assets/images/pages/plus.svg").img-fluid
+                                .col-9
+                                    h2.mb-0(style="color:#5F3BBF; display: ruby")  Impuesto predial
+
+                #collapseSeven.collapse(aria-labelledby='headingSeven', data-parent='#accordionExample')
+                    .card-body
+                        p Se cobra anualmente y es un impuesto que asegura el derecho de propiedad de un inmueble. Varía entre 0,3 % y 3,3 % y lo cobran los municipios o distritos. se hacen acreedores al cobro de los intereses de mora, por cada mes o fracción de mes calendario de retardo en el pago.
+
+        img.img-a.mt-5(src="assets/images/pages/img7.svg").img-fluid

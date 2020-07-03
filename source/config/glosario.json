@@ -1,0 +1,38 @@
+[
+  {
+    "letter": "E",
+    "terms": [
+      {
+        "title": "Estado",
+        "desciption": "Forma de organización de un país que tiene el poder administrativo. "
+      }
+    ]
+  },
+  {
+    "letter": "I",
+    "terms": [
+      {
+        "title": "Impuesto",
+        "desciption": "Tributo que se paga al Estado para apalancar los gastos públicos. "        
+      }
+    ]
+  }, 
+  {
+    "letter": "R",
+    "terms": [
+      {
+        "title": "Renta",
+        "desciption": "ingresos de una persona natural o jurídica que constituyen utilidades de una actividad económica."
+      }
+    ]
+  }, 
+  {
+    "letter": "T",
+    "terms": [
+      {
+        "title": "Tributo",
+        "desciption": "Ingresos de derecho público impuestos por el Estado."
+      }
+    ]
+  }
+]

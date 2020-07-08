@@ -3,6 +3,15 @@
 }
 
 
+.text-white {
+    color: white;
+  }
+  
+  .text-title {
+    color: #5f3bbf;
+  }
+  
+
 // Estilos tema 2
 
 .custom-item-img {
@@ -22,3 +31,25 @@
     margin-left: -12px;
 }
 
+.row-line{
+    background: #FFFFFF;
+    border-bottom: solid 2px #5F3BBF;
+}
+.card-row{
+    display: flex;
+    align-items: center;
+}
+.z-index{
+    z-index: 2 
+}
+.text-position{
+    background-color: #FFF;
+    padding: 15px 15px 15px 100px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.img-position{
+    width: 100%;
+    position: initial;
+    margin-left: 50%;
+}
